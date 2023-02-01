@@ -2,69 +2,70 @@
 # functions
 
 
-### create a function
+### Create a function
 
 
-```# def print_something():
-#     print("something has been printed ") #hard coded not re-useable
-#
-#
-# print_something()
+``` python
+ def print_something():
+   print("something has been printed ") #hard coded not re-useable
+
+
+ print_something()
 ```
-## Functions and arguments
+# Functions and arguments
 ```` python
-# def print_something(print_string): #make sure argument gives context
-#     print(print_string)
-#
-# print_something("this is my variable")
-#
-# print_something("this is my second time calling tis funvtion")
+ def print_something(print_string): #make sure argument gives context
+     print(print_string)
+
+ print_something("this is my variable")
+
+ print_something("this is my second time calling tis funvtion")
 ``````
 #### in java:
 ##### public void print_string(string_text)
 
 ```` python
-# def greetings(name):
-#     print("Hello, my name is" + name)
-#
-# greetings(" luke")
-# greetings(" waleed")
+def greetings(name):
+     print("Hello, my name is" + name)
+
+greetings(" luke")
+ greetings(" waleed")
 ````
 
 ## THE RETURN STATEMENT
 ```` python
-# def addition(int1, int2):
-#   return int1 + int2
-#
-# print(addition(2, 2))
+ def addition(int1, int2):
+   return int1 + int2
+
+ print(addition(2, 2))
 ````
 ```` python
-#Default arguments
+Default arguments
   #set your defult in your argument
 ```# def addition(int1=2, int2=2):
-#     return int1 + int2
-# print(addition())
-# print(addition(10, 10))
+    return int1 + int2
+ print(addition())
+ print(addition(10, 10))
 ````
 ## Multiple arguments
 ```` python
-# def multi_args(*multiargs):
-#     print(type(multiargs))
-#
-#     for arg in multiargs:
-#         print(arg)
-# multi_args(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+ def multi_args(*multiargs):
+     print(type(multiargs))
+
+    for arg in multiargs:
+        print(arg)
+ multi_args(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 ````
 # Type Hints
 ```` python
-# def greeting(name): str):
-#     print("hello my name is" + name)
-# greeting()
+ def greeting(name): str):
+     print("hello my name is" + name)
+ greeting()
 ````
 ```` python
-# def division(num1: int = 2, num2: int = 2) -> float:
-#     return num1 / num2
-# print(division())
+ def division(num1: int = 2, num2: int = 2) -> float:
+     return num1 / num2
+ print(division())
 ````
 
 # Calculator Task 
